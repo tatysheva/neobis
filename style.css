@@ -10,13 +10,15 @@ html {
 }
 
 body {
-    width: 1020px;
-    margin: 0 auto;
     font-size: 1.4rem;
     font-family: 'Lato', sans-serif;
 }
 
 a {
+    cursor: pointer;
+}
+
+button:hover {
     cursor: pointer;
 }
 
@@ -27,7 +29,6 @@ a {
 
 .header {
     /* border: 1px solid red; */
-    position: fixed;
     z-index: 9;
     height: 84px;
     display: flex;
@@ -39,7 +40,7 @@ a {
     margin-top: -5px;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .navigation {
@@ -77,3 +78,37 @@ a {
     border: 1px solid #f06c64;
     background: none;
 }
+
+/*  ###################### HERO ##################### */
+
+#hero {
+    height: 100vh;
+    background-image: url(./img/Dmitry\ Alekseev.png);
+    background-repeat: no-repeat;
+    background-position: right -100px center;
+    display: flex;
+    align-items: center;
+}
+
+.about__title {
+    font-size: 5rem;
+}
+
+.about__subtitle {
+    font-size: 1.8rem;
+    color: #979797;
+    padding: 20px 0;
+}
+
+.about__button {
+    background-color: #f06c64;
+    color: #ffffff;
+    padding: 15px 45px;
+    border: none;
+}
+
+.logo {
+    width: 500px;
+}
+
+/*  ###################### HERO ##################### */
