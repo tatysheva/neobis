@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    border: 1px solid red;
     font-size: 1.4rem;
     font-family: 'Lato', sans-serif;
 }
@@ -100,7 +101,7 @@ button:hover {
     padding: 20px 0;
 }
 
-.about__button {
+.info-button {
     background-color: #f06c64;
     color: #ffffff;
     padding: 15px 45px;
@@ -112,3 +113,58 @@ button:hover {
 }
 
 /*  ###################### HERO ##################### */
+
+/* #################### SERVICES #################### */
+
+
+.title {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 50px 0;
+}
+
+.services-list {
+    display: flex;
+}
+
+.services-list__item {
+    width: calc(100%/4);
+    text-align: center;
+}
+
+.services-list__titile {
+    font-size: 1.6rem;
+    color: #979797;
+    padding: 20px 0;
+}
+
+.content-button {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* #################### SERVICES #################### */
+
+/* #################### PORTFOLIO ################## */
+
+#portfolio {
+    background-color: beige;
+}
+
+.portfolio-list {
+    display: flex;
+}
+
+.portfolio-list__item {
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.portfolio-list__title {
+    font-size: 1.6rem;
+    color: #979797;
+    padding: 20px 0;
+}
+
+
+/* #################### PORTFOLIO ################## */
