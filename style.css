@@ -10,7 +10,6 @@ html {
 }
 
 body {
-    border: 1px solid red;
     font-size: 1.4rem;
     font-family: 'Lato', sans-serif;
 }
@@ -52,7 +51,7 @@ button:hover {
 
 .navigation__item {
     text-decoration: none;
-    color: #000000;
+    color: #979797;
     margin-right: 20px;
 }
 
@@ -74,7 +73,7 @@ button:hover {
 
 .phone-button {
     margin-left: 30px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     color: #f06c64;
     border: 1px solid #f06c64;
     background: none;
@@ -83,7 +82,7 @@ button:hover {
 /*  ###################### HERO ##################### */
 
 #hero {
-    height: 100vh;
+    height: calc(100vh - 84px);
     background-image: url(./img/Dmitry\ Alekseev.png);
     background-repeat: no-repeat;
     background-position: right -100px center;
@@ -148,16 +147,23 @@ button:hover {
 /* #################### PORTFOLIO ################## */
 
 #portfolio {
-    background-color: beige;
+    background-color: rgb(240, 240, 240);
 }
 
 .portfolio-list {
     display: flex;
+    padding-left: 20px;
 }
 
 .portfolio-list__item {
     width: calc(100%/3);
     text-align: center;
+    padding-right: 20px;
+}
+
+
+.portfolio-list__item img {
+    width: 100%;
 }
 
 .portfolio-list__title {
@@ -167,4 +173,84 @@ button:hover {
 }
 
 
+
 /* #################### PORTFOLIO ################## */
+
+/* #################### PRICE ###################### */
+
+#price {
+    background: #f06c64;
+}
+
+.price {
+    text-align: left;
+    padding: 50px 0;
+    color: #ffffff;
+}
+
+.price__title {
+    font-size: 4rem;
+}
+
+.price__subtitle {
+    padding-top: 25px;
+    font-size: 1.4rem;
+}
+
+/* #################### PRICE ###################### */
+
+/* ################### FOOTER ##################### */
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__navigation {
+    flex-direction: column;
+}
+
+.footer__navigation li {
+    padding-bottom: 20px;
+}
+
+.footer-phone, .footer-email {
+    display: flex;
+}
+
+.footer-phone img, .footer-email img {
+    padding-right: 10px;
+}
+
+.footer-phone {
+    padding-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.social-network {
+    padding-top: 20px;
+}
+
+.social-network img {
+    padding-right: 10px;
+    color: #979797;
+}
+
+.contact__phone {
+    margin-left: 0px;
+}
+
+.develop {
+    color: #ffffff;
+    background: rgb(49, 49, 49);
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/* ################### FOOTER ##################### */
